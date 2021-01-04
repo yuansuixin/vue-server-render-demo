@@ -4,7 +4,9 @@ const baseConfig = require("./webpack.base.config.js");
 const VueSSRClientPlugin = require("vue-server-renderer/client-plugin");
 
 module.exports = merge(baseConfig, {
-  entry: "./src/entry-client.js",
+  entry: {
+    app: "./src/entry-client.js",
+  },
   // webpack4
   // 重要信息：这将 webpack 运行时分离到一个引导 chunk 中，
   // 以便可以在之后正确注入异步 chunk。

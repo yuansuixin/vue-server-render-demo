@@ -25,4 +25,8 @@ npm install rimraf -D
 * 在package.json里面配置常用的脚本
 * webpack 打包   `npm run build`
 * 然后将打包后的代码进行服务端的渲染，需要使用到一个非常重要的API，createBundleRenderer的API，
-* template查看文档中的基本用法的页面模板，新建一个html的模板，模板中可以使用模板语法
+* template查看文档中的基本用法的页面模板，新建一个html的模板，模板中可以使用模板语法'
+* webpack热重载
+  * 安装依赖  ``npm install webpack-dev-middleware webpack-hot-middleware -D``
+* chokidar库主要是监视文件的变化，当文件发生变化的时候可以调用相应的事件进行操作
+* `npm install memory-fs -D`用这个依赖将server端的数据写入内存

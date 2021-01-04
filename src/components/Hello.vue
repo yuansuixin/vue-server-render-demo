@@ -1,13 +1,10 @@
 <template>
   <div>
+    ytut
     <h1>hello world</h1>
   </div>
 </template>
 <script>
-export default {
-  
-}
+export default {};
 </script>
-<style scoped>
-
-</style>
+<style scoped></style>
