@@ -2,7 +2,6 @@
   <div>
     hello world!{{item}}
     <p></p>
-    <router-link to="/hello1">hello1 link</router-link>
   </div>
 </template>
 

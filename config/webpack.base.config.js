@@ -17,6 +17,7 @@ module.exports = {
   resolve: {
     alias: {
       public: resolve("public"),
+      "@": resolve("src"),
     },
   },
   module: {

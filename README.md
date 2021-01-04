@@ -29,4 +29,6 @@ npm install rimraf -D
 * webpack热重载
   * 安装依赖  ``npm install webpack-dev-middleware webpack-hot-middleware -D``
 * chokidar库主要是监视文件的变化，当文件发生变化的时候可以调用相应的事件进行操作
-* `npm install memory-fs -D`用这个依赖将server端的数据写入内存
+* `npm install memory-fs -D`用这个依赖将server端的数据写入内存,webpack默认会把数据更新到磁盘中，要想在调试中速度更快，就需要放在内存中
+* 安装懒加载依赖 `npm install @babel/plugin-syntax-dynamic-import -D`
+* 数据预取和状态  `npm install vuex-router-sync -S`
